@@ -1,0 +1,15 @@
+<budy>
+    <div class="container">
+        <Header>
+            <h1>todolist</h1>
+        </Header>
+    </div>
+
+    <ul>
+        {{#each tasks}} {{>task}} {{/each}}
+    </ul>
+</budy>
+
+<template>
+    <li>{{text}}</li>
+</template>
